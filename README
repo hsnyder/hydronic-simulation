@@ -1,5 +1,6 @@
 This repository provies a python toolbox for simulating hydronic home heating loops,
 based on the mathematical model presented in Zaheer-Uddin & Monastriakos (1998).
+The differential equation solver is fully implicit (it uses Broyden's method).
 
 Intended use: rapidly testing control strategies for hydronic boilers.
 This repo includes an implementation of the hydronic loop described in the cited paper 
