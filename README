@@ -1,0 +1,13 @@
+This repository provies a python toolbox for simulating hydronic home heating loops,
+based on the mathematical model presented in Zaheer-Uddin & Monastriakos (1998).
+
+Intended use: rapidly testing control strategies for hydronic boilers.
+This repo includes an implementation of the hydronic loop described in the cited paper 
+(i.e. one heating zone, one radiator).
+To simulate a different building or loop configuration:
+- Modify hydronic.py to match the hydronic loop configuration for the building under
+investigation.
+- Validate the building heat loss coefficients using actual building data (if desired).
+- Adjust BoilerCtrlPID.py to implement whatever control strategy you want to evaluate, and run it.
+
+See hydronic.py and BoilerCtrlPID.py, and comments therein, for more information.
